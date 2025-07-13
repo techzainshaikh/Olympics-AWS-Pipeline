@@ -52,13 +52,6 @@ s3://olympic-zn/output/
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/Olympics-AWS-Pipeline.git
-cd Olympics-AWS-Pipeline
 
 
 
