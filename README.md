@@ -67,6 +67,5 @@ cd Olympics-AWS-Pipeline
 ### 👨‍💻 Zain ul Abideen
 
 📫 **Let's Connect:**
-
-- GitHub: [GitHub.com](https://github.com/techzainshaikh)
-- LinkedIn: [LinkedIn.com](https://linkedin.com/in/zainshaikh1)
+- GitHub: [github.com/techzainshaikh](https://github.com/techzainshaikh)
+- LinkedIn: [linkedin.com/in/zainshaikh1](https://linkedin.com/in/zainshaikh1)
