@@ -16,6 +16,51 @@ A complete end-to-end **ETL pipeline project** that ingests, transforms, and upl
 
 ## 📂 Data Pipeline Architecture
 
+┌────────────┐ ┌────────────┐ ┌────────────────┐ ┌───────────────┐
+│ Raw CSVs ├────▶│ Pandas ETL │────▶│ Dim / Fact DFs │────▶│ S3 Output │
+└────────────┘ └────────────┘ └────────────────┘ └───────────────┘
+│
+▼
+s3://olympic-zn/output/
+
+
+---
+
+## 🧾 Output Tables
+
+| File Name                    | Description                          |
+|-----------------------------|--------------------------------------|
+| `dimCountry.csv`            | Country-related dimension            |
+| `dimAthletes.csv`           | Athlete profile details              |
+| `dimCoaches.csv`            | Coach profiles                       |
+| `dimMedals.csv`             | Individual medals info               |
+| `dimMedals_Totals.csv`      | Country-wise medal tallies           |
+| `dimTechnical_Officials.csv`| Officials info                       |
+| `factOlympics.csv`          | Central fact table (joins all above) |
+
+---
+
+## 🛠️ Technologies Used
+
+| Tool/Service     | Role                            |
+|------------------|---------------------------------|
+| **Python**       | Core language                   |
+| **Pandas**       | Data manipulation               |
+| **AWS S3**       | Cloud data storage              |
+| **Boto3**        | AWS SDK for uploading files     |
+| **Jupyter**      | Development & testing notebook  |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Olympics-AWS-Pipeline.git
+cd Olympics-AWS-Pipeline
+
+
 
 ## 🙋‍♂️ About the Author
 
@@ -23,5 +68,5 @@ A complete end-to-end **ETL pipeline project** that ingests, transforms, and upl
 
 📫 **Let's Connect:**
 
-- GitHub: [github.com/techzainshaikh](https://github.com/techzainshaikh)
-- LinkedIn: [linkedin.com/in/zainshaikh1](https://linkedin.com/in/zainshaikh1)
+- GitHub: [GitHub.com](https://github.com/techzainshaikh)
+- LinkedIn: [LinkedIn.com](https://linkedin.com/in/zainshaikh1)
